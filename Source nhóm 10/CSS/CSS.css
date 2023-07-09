@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+    font-weight: bolder;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: white;
+    height: 150px;
+}
+
+.menucon {
+    padding-left: 230px;
+    margin-top: -57px;
+}
+
+.menu img {
+    padding: 0%;
+    margin: 20px;
+}
+
+.menu a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s all;
+    border-radius: 100%;
+    text-shadow: 0 0 3px white;
+}
+
+.menu .canhan {
+    float: right;
+    margin: -25px 15px 0 0;
+}
+
+.menu .thanhtimkiem {
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 30px 1px;
+}
+
+.menu .thanhtimkiem input {
+    margin: 1px 12px;
+    float:right;
+}
+
+.menu .thanhtimkiem button {
+    margin: 1px 12px;
+    background: none;
+}
+
+.bgimg img {
+    display: block;
+    width: 100%;
+    margin-top: -60px;
+    padding: auto;
+}
+
+#menusanpham img {
+    border-radius: 10%;
+    margin: 5px 20px ;
+}
+
+#menusanpham table {
+    margin: 0 0 0 5%;
+}
+
+.box {
+    position: relative;
+}
+
+.box button {
+    position: absolute;
+    margin: 540px 100px 0 -390px;
+    width: 170px;
+    height: 50px;
+    border: none;
+    background: none;
+    color: #f3ebff;
+}
+
+.box button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s all;
+    text-shadow: 0 0 3px white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.boxx button {
+    position: absolute;
+    margin: 265px 0 0 -230px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background: none;
+    
+}
+
+.boxx .button1 {
+    color: aliceblue;
+}
+
+.boxx .button2 {
+    color: #dbe0e7;
+}
+
+.boxx .button3 {
+    color: #d4f2fe;;
+}
+
+.boxx .button4 {
+    color: #f1919f;
+}
+
+.boxx button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s all;
+    text-shadow: 0 0 3px white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+
+
+#footer img{
+    width: 25px;
+    float: left;
+    margin:5px 10px;
+}
+
+#footer p{
+    font-size: 20px;
+    float: left;
+    margin:5px;
+    text-align:center;
+}
+
+
+nav ul{
+    display: flex;
+    position:absolute;
+    border: none;
+}
+nav> ul li{
+    list-style: none; /* bỏ dấu chấm mặc định của li */
+    /* kẻ đường bên trái và bên phải của li */
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+    border: none;
+}
+nav> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+    border: none;
+}
+nav ul li:first-child {
+    border-left: none; /* bỏ đường kè trái của phần tử đầu tiên */
+    border: none;
+}
+nav> ul li:first-child a{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+
+/*menu con*/
+/*Ẩn các menu con cấp 1,2,3*/
+nav li ul{
+    display: none;
+    min-width: 350px;
+    border: none;
+}
+nav li>ul li{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background:#fff;
+    text-align: left;
+}
+
+nav li>ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+nav li>ul li:last-child a{
+    border-bottom-left-radius: 5px;
+    border: none;
+    border-bottom-right-radius: 5px;
+}
+/*khi hover thì hiện menu con*/
+nav  li:hover > ul{
+    display:  block;
+    border: none;
+}
+
+

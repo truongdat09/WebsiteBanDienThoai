@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+#Main{
+	max-width: 1170px;
+	margin:0 auto;
+}
+.TieuDe{
+	text-align: center;
+	margin: 10px 0px;
+}
+h3{
+	font-size: 18px;
+	color: #111;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: 1px solid #bebebe;
+	display: inline-block;
+	color: #555;
+	font-weight: 600;
+}
+ul.products{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+ul.products li{
+	flex-basis: 25%;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+ul.products li img{
+	max-width:100%;
+	height:auto;
+}
+ul.products li .product-top {
+	position: relative;
+	overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+	display: block;
+}
+ul.products li .product-top .product-thumb img{
+	display: block;
+	
+}
+ul.products li .product-top a.buy-now{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-color: #446084;
+	color: #FFFFFF;
+	padding: 10px 0px;
+	position: absolute;
+	border: -36px;
+	width: 100%;
+	transition: 0.5s ease-in-out;
+}
+ul.products li:hover a.buy-now{
+	bottom: 0px;
+}
+ul.products li .product-info{
+	padding: 20px 0px;
+}
+ul.products li .product-info a{
+	display: block;
+	text-decoration: none;
+}
+ul.products li .product-info a.product-name{
+	font-size: 20px;
+	padding: 3px 0px;
+	color: #334862;
+}
+ul.products li .product-info .product-price{
+	font-size: 30px;
+	padding: 2px 0px;
+	color: #FF0004;
+	font-weight: 600;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: white;
+    height: 150px;
+}
+
+.menucon {
+    padding-left: 230px;
+    margin-top: -57px;
+}
+
+.menu img {
+    padding: 0%;
+    margin: 20px;
+}
+
+.menu a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.5s all;
+    border-radius: 100%;
+    text-shadow: 0 0 3px white;
+}
+
+.menu .canhan {
+    float: right;
+    margin: -25px 15px 0 0;
+}
+
+.menu .thanhtimkiem {
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: -15px 1px;
+}
+
+.menu .thanhtimkiem input {
+    margin: 1px 12px;
+}
+
+.menu .thanhtimkiem button {
+    margin: 1px 12px;
+    background: none;
+}
+
+#footer img{
+    width: 25px;
+    float: left;
+    margin:5px 10px;
+}
+
+#footer p{
+    font-size: 20px;
+    float: left;
+    margin:5px;
+}

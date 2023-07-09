@@ -1,0 +1,28 @@
+@charset "utf-8";
+#main{
+	width:900px;
+	border:5px solid #F00;}
+#header{
+	height:100px;
+	border-bottom:5px solid #F00;}
+#left{
+	width:150px;
+	min-height:500px;
+	border-right:5px solid #f00;
+	float:left;}
+#main-panel{
+	width:580px;
+	min-height:500px;
+	float:left;}
+#right{
+	width:150px;
+	min-height:500px;
+	border-left:5px solid #f00;
+	float:left;}
+#mainpanelfooter{}
+#pagefooter{
+	border-top:5px solid #f00;
+	height:50px;
+	clear:both;}
+
+

@@ -1,0 +1,61 @@
+body {
+}
+.khung {
+    border:solid 1px grey;
+    padding:10px;
+    height:1000px;
+}
+.menu1 li {
+    display:inline-block;
+}
+.menu2 li {
+    padding-top:10px;
+    padding-left:10px;
+    display:inline-block;
+    font-size:20px;
+}
+.cot2_d1 {
+    text-align:right;
+    
+}
+ a {
+    text-decoration:none;
+}
+.menu2 {
+    text-align:left;
+
+}
+.dong2 {
+    clear:both;
+     text-align:left;
+     background-image:url(images/img_products01.jpg);
+     height:40px;
+}
+.cot2_d1 img {
+    width: 100px;
+}
+.menu2 a {
+    color:white;
+}
+.dong2_cot1_d3 {
+    border:solid 1px grey;
+    padding:10px;
+}
+
+.dong2_cot1_d3 img {
+    
+    padding-right:10px;
+}
+.gach {
+    border-top:solid 1px grey;
+}
+
+.gach_duoi {
+    border-bottom:solid 1px grey;
+    color:grey;
+    font-size:20px;
+}
+.a {
+    padding:0px;
+}
+
